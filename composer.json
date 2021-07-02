@@ -1,0 +1,31 @@
+{
+    "name": "phphos/laravel",
+    "type": "library",
+    "description": "Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sean",
+            "email": "sxfmao@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "laravel/framework": "^8.12",
+        "tymon/jwt-auth": "^1.0"
+    },
+    "require-dev": {
+        "barryvdh/laravel-ide-helper": "^2.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPHos\\Laravel\\": "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer"
+        }
+    }
+}
